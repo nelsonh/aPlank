@@ -1,0 +1,13 @@
+In file included from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/Platforms/iOS/../../CCDirector.h:26,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h:31,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/ccMacros.h:199,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/CCSpriteBatchNode.h:31,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/CCSpriteSheet.h:28,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/cocos2d.h:69,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Classes/PlankScene.h:10,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Classes/PlankScene.mm:9:
+/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/Platforms/iOS/../../ccConfig.h:229:1: warning: "CC_SPRITE_DEBUG_DRAW" redefined
+In file included from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/cocos2d.h:49,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Classes/PlankScene.h:10,
+                 from /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Classes/PlankScene.mm:9:
+/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/ccConfig.h:229:1: warning: this is the location of the previous definition
