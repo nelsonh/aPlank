@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>D59SF95MZ4.com.yourcompany.aPlank</string>
+	<string>628P2Q3SQP.com.the-asquare.aPlanking</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>D59SF95MZ4.com.yourcompany.aPlank</string>
+		<string>628P2Q3SQP.com.the-asquare.aPlanking</string>
 	</array>
 </dict>
 </plist>

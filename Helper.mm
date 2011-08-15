@@ -38,4 +38,17 @@
 	return NO;
 }
 
++(CGPoint)toGLViewPoint:(UITouch*)touch
+{
+	CGPoint touchLoc=[touch locationInView:[touch view]];
+	CGPoint glViewLoc=[[CCDirector sharedDirector] convertToGL:touchLoc];
+	
+	return glViewLoc;
+}
+
++(BOOL)isPointInRect:(CGRect)rect GLPoint:(CGPoint)glPoint
+{
+	return CGRectContainsPoint(rect, glPoint);
+}
+
 @end

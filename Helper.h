@@ -19,4 +19,10 @@
 +(CGPoint)toPixel:(b2Vec2)meter;
 +(BOOL)isOutOfScreen:(CGRect)rectBoundingBox;
 
+//convert touch location to GLView location
++(CGPoint)toGLViewPoint:(UITouch*)touch;
+
+//determine given rect contain a GL point
++(BOOL)isPointInRect:(CGRect)rect GLPoint:(CGPoint)glPoint;
+
 @end

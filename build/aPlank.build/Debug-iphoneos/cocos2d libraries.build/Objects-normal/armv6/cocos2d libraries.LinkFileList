@@ -1,132 +1,132 @@
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/FontLabel.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/FontLabelStringDrawing.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/FontManager.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ZFont.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CDataScanner.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CDataScanner_Extensions.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/NSCharacterSet_Extensions.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/NSDictionary_JSONExtensions.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/NSScanner_Extensions.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CJSONDeserializer.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CJSONScanner.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CJSONSerializer.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ZAttributedString.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CLScoreServerPost.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CLScoreServerRequest.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/cocoslive.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2BroadPhase.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2CollideCircle.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2CollidePolygon.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Collision.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Distance.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2DynamicTree.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2TimeOfImpact.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2CircleShape.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PolygonShape.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2BlockAllocator.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Math.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Settings.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2StackAllocator.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Body.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2ContactManager.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Fixture.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Island.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2World.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2WorldCallbacks.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2CircleContact.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Contact.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2ContactSolver.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PolygonAndCircleContact.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PolygonContact.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2TOISolver.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2DistanceJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2FrictionJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2GearJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Joint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2LineJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2MouseJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PrismaticJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PulleyJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2RevoluteJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2WeldJoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CDAudioManager.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CDOpenALSupport.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CocosDenshion.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/SimpleAudioEngine.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAction.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionCamera.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionEase.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionGrid.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionGrid3D.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionInstant.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionInterval.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionManager.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionPageTurn3D.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionProgressTimer.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionTiledGrid.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionTween.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAnimation.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAnimationCache.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAtlasNode.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCBlockSupport.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCCamera.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCCompatibility.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCConfiguration.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCDirector.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCDrawingPrimitives.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCGrabber.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCGrid.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCLabelAtlas.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCLabelBMFont.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCLabelTTF.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCLayer.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCMenu.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCMenuItem.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCMotionStreak.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCNode.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParallaxNode.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParticleExamples.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParticleSystem.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParticleSystemPoint.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParticleSystemQuad.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCProgressTimer.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCRenderTexture.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCRibbon.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCScene.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCScheduler.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSprite.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSpriteBatchNode.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSpriteFrame.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSpriteFrameCache.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSpriteSheet.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTexture2D.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTextureAtlas.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTextureCache.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTexturePVR.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTileMapAtlas.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTMXLayer.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTMXObjectGroup.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTMXTiledMap.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTMXXMLParser.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTransition.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTransitionPageTurn.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTransitionRadial.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/cocos2d.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCDirectorIOS.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTouchDispatcher.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTouchHandler.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/EAGLView.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ES1Renderer.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/glu.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCDirectorMac.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCEventDispatcher.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/MacGLView.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/base64.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCArray.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCFileUtils.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCProfiling.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ccUtils.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CGPointExtension.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/TGAlib.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/TransformUtils.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ZipUtils.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/FontLabel.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/FontLabelStringDrawing.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/FontManager.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ZFont.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CDataScanner.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CDataScanner_Extensions.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/NSCharacterSet_Extensions.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/NSDictionary_JSONExtensions.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/NSScanner_Extensions.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CJSONDeserializer.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CJSONScanner.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CJSONSerializer.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ZAttributedString.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CLScoreServerPost.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CLScoreServerRequest.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/cocoslive.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2BroadPhase.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2CollideCircle.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2CollidePolygon.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Collision.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Distance.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2DynamicTree.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2TimeOfImpact.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2CircleShape.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PolygonShape.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2BlockAllocator.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Math.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Settings.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2StackAllocator.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Body.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2ContactManager.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Fixture.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Island.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2World.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2WorldCallbacks.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2CircleContact.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Contact.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2ContactSolver.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PolygonAndCircleContact.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PolygonContact.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2TOISolver.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2DistanceJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2FrictionJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2GearJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2Joint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2LineJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2MouseJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PrismaticJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2PulleyJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2RevoluteJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/b2WeldJoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CDAudioManager.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CDOpenALSupport.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CocosDenshion.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/SimpleAudioEngine.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAction.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionCamera.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionEase.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionGrid.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionGrid3D.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionInstant.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionInterval.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionManager.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionPageTurn3D.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionProgressTimer.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionTiledGrid.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCActionTween.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAnimation.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAnimationCache.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAtlasNode.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCBlockSupport.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCCamera.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCCompatibility.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCConfiguration.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCDirector.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCDrawingPrimitives.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCGrabber.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCGrid.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCLabelAtlas.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCLabelBMFont.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCLabelTTF.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCLayer.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCMenu.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCMenuItem.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCMotionStreak.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCNode.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParallaxNode.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParticleExamples.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParticleSystem.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParticleSystemPoint.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCParticleSystemQuad.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCProgressTimer.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCRenderTexture.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCRibbon.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCScene.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCScheduler.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSprite.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSpriteBatchNode.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSpriteFrame.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSpriteFrameCache.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCSpriteSheet.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTexture2D.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTextureAtlas.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTextureCache.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTexturePVR.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTileMapAtlas.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTMXLayer.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTMXObjectGroup.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTMXTiledMap.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTMXXMLParser.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTransition.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTransitionPageTurn.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTransitionRadial.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/cocos2d.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCDirectorIOS.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTouchDispatcher.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCTouchHandler.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/EAGLView.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ES1Renderer.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/glu.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCDirectorMac.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCEventDispatcher.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/MacGLView.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/base64.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCArray.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCFileUtils.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCProfiling.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ccUtils.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CGPointExtension.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/TGAlib.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/TransformUtils.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/ZipUtils.o

@@ -33,7 +33,8 @@ static PlankScene *plankSceneInstance=nil;
 
 +(PlankScene*)sharedGameScene
 {
-	NSAssert(plankSceneInstance!=nil, @"Instance is not existed");
+	NSString *msg=[NSString stringWithFormat:@"Instance is not existed --Class:%@", [self class]];
+	NSAssert(plankSceneInstance!=nil, msg);
 	return plankSceneInstance;
 }
 

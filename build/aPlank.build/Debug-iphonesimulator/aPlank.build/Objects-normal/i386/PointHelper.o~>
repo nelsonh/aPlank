@@ -1,0 +1,4 @@
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PointHelper.m: In function '+[PointHelper toGLViewPoint:]':
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PointHelper.m:17: error: 'CCDirector' undeclared (first use in this function)
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PointHelper.m:17: error: (Each undeclared identifier is reported only once
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PointHelper.m:17: error: for each function it appears in.)

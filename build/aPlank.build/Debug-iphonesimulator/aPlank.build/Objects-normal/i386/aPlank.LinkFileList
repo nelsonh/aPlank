@@ -1,25 +1,40 @@
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/main.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/aPlankAppDelegate.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/HelloWorldScene.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/GLES-Render.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/RootViewController.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/PlankScene.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Actor.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/GameObject.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Bone.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BodyBone.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BoneComponent.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/HeadBone.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/LeftArmBone.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/RightArmBone.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/HumanSkeleton.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/LeftLegBone.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/RightLegBone.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BoneMathHelper.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Character.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CharacterShadow.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Wood.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Helper.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/ShadowPart.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BodyPart.o
-/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BodyShapeInfo.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/main.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/aPlankAppDelegate.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/HelloWorldScene.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/GLES-Render.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/RootViewController.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/PlankScene.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Actor.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/GameObject.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Bone.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BodyBone.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BoneComponent.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/HeadBone.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/LeftArmBone.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/RightArmBone.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/HumanSkeleton.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/LeftLegBone.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/RightLegBone.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BoneMathHelper.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Character.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CharacterShadow.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Wood.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/Helper.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/ShadowPart.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BodyPart.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/BodyShapeInfo.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/ScrollableMenu.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CCBigImage.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CCTextureCache+CCBigImageExtensions.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CCMenuAdvanced.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CCMenuItemSpriteIndependent.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CCScrollLayer.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CCSendMessages.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CCSlider.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/FilesDownloader.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/SingleFileDownloader.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/IntroScene.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/IntroUI.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/CCButton.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/NextButton.o
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphonesimulator/aPlank.build/Objects-normal/i386/PreviousButton.o

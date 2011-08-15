@@ -1,0 +1,3 @@
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/../Helper.mm: In function 'BOOL +[Helper isPointInRect:GLPoint:](objc_object*, objc_selector*, CGRect, CGPoint)':
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/../Helper.mm:49: warning: conflicting types for '+(BOOL)isPointInRect:(CGRect)rect GLPoint:(CGPoint)glPoint'
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/../Helper.h:26: warning: previous declaration of '+(bool)isPointInRect:(CGRect)rect GLPoint:(CGPoint)glPoint'

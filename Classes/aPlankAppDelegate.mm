@@ -13,6 +13,8 @@
 #import "HelloWorldScene.h"
 #import "RootViewController.h"
 #import "PlankScene.h"
+#import "ScrollableMenu.h"
+#import "IntroScene.h"
 
 @implementation aPlankAppDelegate
 
@@ -42,6 +44,7 @@
 
 - (void) applicationDidFinishLaunching:(UIApplication*)application
 {
+	
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
@@ -112,7 +115,9 @@
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [PlankScene scene]];		
+	//[[CCDirector sharedDirector] runWithScene: [PlankScene scene]];
+	//[[CCDirector sharedDirector] runWithScene: [ScrollableMenu scene]];
+	[[CCDirector sharedDirector] runWithScene: [IntroScene scene]];
 }
 
 
@@ -129,6 +134,7 @@
 }
 
 -(void) applicationDidEnterBackground:(UIApplication*)application {
+	
 	[[CCDirector sharedDirector] stopAnimation];
 }
 
@@ -137,6 +143,7 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
+	
 	CCDirector *director = [CCDirector sharedDirector];
 	
 	[[director openGLView] removeFromSuperview];
