@@ -40,4 +40,9 @@
 	[self setColor:ccWHITE];
 }
 
+-(void)dealloc
+{
+	[super dealloc];
+}
+
 @end

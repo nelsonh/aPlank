@@ -15,6 +15,7 @@
 #import "PlankScene.h"
 #import "ScrollableMenu.h"
 #import "IntroScene.h"
+#import "CCBReader.h"
 
 @implementation aPlankAppDelegate
 
@@ -117,7 +118,8 @@
 	// Run the intro Scene
 	//[[CCDirector sharedDirector] runWithScene: [PlankScene scene]];
 	//[[CCDirector sharedDirector] runWithScene: [ScrollableMenu scene]];
-	[[CCDirector sharedDirector] runWithScene: [IntroScene scene]];
+	//[[CCDirector sharedDirector] runWithScene: [IntroScene scene]];
+	[[CCDirector sharedDirector] runWithScene: [CCBReader sceneWithNodeGraphFromFile:@"MainMenu.ccb"]];
 }
 
 

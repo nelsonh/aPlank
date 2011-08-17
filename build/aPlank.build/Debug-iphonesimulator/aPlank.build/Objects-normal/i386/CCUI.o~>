@@ -1,0 +1,8 @@
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCUI.m:14: error: no declaration of property 'uiElements' found in the interface
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCUI.m: In function '-[CCUI init]':
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCUI.m:20: error: request for member 'isTouchEnabled' in something not a structure or union
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCUI.m:23: error: request for member 'uiElements' in something not a structure or union
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCUI.m:26: warning: 'CCUI' may not respond to '-layoutUI'
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCUI.m:26: warning: (Messages without a matching method signature
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCUI.m:26: warning: will be assumed to return 'id' and accept
+/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCUI.m:26: warning: '...' as arguments.)

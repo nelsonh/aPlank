@@ -1,7 +1,7 @@
 TaPlank
 v7
 r0
-t335096054.259197
+t335268988.548259
 cCheck dependencies
 cCpResource build/Debug-iphoneos/aPlank.app/ResourceRules.plist /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/Info.plist Resources/Info.plist
@@ -35,6 +35,16 @@ cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos
 cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/S5.png Resources/StoryIntro/S5.png
 cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/NextBtn.png Resources/StoryIntro/NextBtn.png
 cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/PreviousBtn.png Resources/StoryIntro/PreviousBtn.png
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/SkipBtn.png Resources/StoryIntro/SkipBtn.png
+cCpResource build/Debug-iphoneos/aPlank.app/MainMenu.ccb Resources/MainMenu.ccb
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/MenuBackground.png Resources/MenuBackground.png
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/option.png Resources/option.png
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/optionPressed.png Resources/optionPressed.png
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/review.png Resources/review.png
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/reviewPressed.png Resources/reviewPressed.png
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/start.png Resources/start.png
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/startPressed.png Resources/startPressed.png
+cCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/BackBtn.png Resources/BackBtn.png
 cProcessPCH /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch.gch aPlank_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
 cProcessPCH++ /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch.gch aPlank_Prefix.pch normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/main.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
@@ -74,9 +84,15 @@ cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/Fi
 cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SingleFileDownloader.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/FilesDownloader/SingleFileDownloader.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroScene.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroUI.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
-cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/NextButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
-cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PreviousButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PreviousButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SkipButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCBReader.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCBReader.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/MainMenuScene.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewUI.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BackButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCStoryUI.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCStoryUI.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 cLd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank normal armv6
 cGenerateDSYMFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app.dSYM /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank
 cProcessProductPackaging "/Users/Nelson/Library/MobileDevice/Provisioning Profiles/C57716B3-2D92-486A-9293-AA57AE77712A.mobileprovision" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/embedded.mobileprovision
@@ -2016,10 +2032,45 @@ t1313402569
 s1178
 i"Helper.h"
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.h
+c000000004E4B8DC3000000000000012F
+t1313574339
+s303
+i<Foundation/Foundation.h>
+i"CCButton.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.m
+c000000004E4B7839000000000000038F
+t1313568825
+s911
+i"BackButton.h"
+i"CCBReader.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.mm
+c000000004E4B8E9A00000000000003BA
+t1313574554
+s954
+i"BackButton.h"
+i"CCBReader.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCBReader.h
+c000000004DDAB5CF000000000000043F
+t1306179023
+s1087
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCBReader.m
+c000000004E2047710000000000006D49
+t1310738289
+s27977
+i"CCBReader.h"
+i<objc/runtime.h>
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.h
-c000000004E48D21D0000000000000270
-t1313395229
-s624
+c000000004E4B8AF000000000000003DE
+t1313573616
+s990
 i<Foundation/Foundation.h>
 i"cocos2d.h"
 
@@ -2027,6 +2078,27 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.m
 c000000004E48D2EF0000000000000369
 t1313395439
 s873
+i"CCButton.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.mm
+c000000004E48D2EF0000000000000369
+t1313395439
+s873
+i"CCButton.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCStoryUI.h
+c000000004E4B8BEC00000000000003B3
+t1313573868
+s947
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCStoryUI.mm
+c000000004E4B8CA700000000000006DC
+t1313574055
+s1756
+i"CCStoryUI.h"
+i"Helper.h"
 i"CCButton.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/GLES-Render.h
@@ -2067,25 +2139,25 @@ s7520
 i"HelloWorldScene.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.h
-c000000004E48E51E000000000000023D
-t1313400094
-s573
+c000000004E4B93CD00000000000002ED
+t1313575885
+s749
 i<Foundation/Foundation.h>
 i"cocos2d.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm
-c000000004E48EF0F0000000000000E44
-t1313402639
-s3652
+c000000004E4B93CD0000000000000EC9
+t1313575885
+s3785
 i"IntroScene.h"
 i"IntroUI.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.h
-c000000004E48EF970000000000000179
-t1313402775
-s377
+c000000004E4B856E00000000000000FD
+t1313572206
+s253
 i<Foundation/Foundation.h>
-i"cocos2d.h"
+i"CCStoryUI.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.m
 c000000004E48770000000000000000B4
@@ -2094,13 +2166,37 @@ s180
 i"IntroUI.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm
-c000000004E48EF98000000000000094C
-t1313402776
-s2380
+c000000004E4B94FA0000000000000495
+t1313576186
+s1173
 i"IntroUI.h"
 i"NextButton.h"
 i"PreviousButton.h"
-i"Helper.h"
+i"SkipButton.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.h
+c000000004E4B8D770000000000000104
+t1313574263
+s260
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.m
+c000000004E4B78D90000000000000318
+t1313568985
+s792
+i"MainMenuScene.h"
+i"IntroScene.h"
+i"ReviewStoryScene.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.mm
+c000000004E4B8EDA00000000000003DE
+t1313574618
+s990
+i"MainMenuScene.h"
+i"IntroScene.h"
+i"IntroUI.h"
+i"ReviewUI.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.h
 c000000004E48D2C70000000000000116
@@ -2110,9 +2206,9 @@ i<Foundation/Foundation.h>
 i"CCButton.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm
-c000000004E48DB3A0000000000000319
-t1313397562
-s793
+c000000004E4B94FB000000000000033F
+t1313576187
+s831
 i"NextButton.h"
 i"IntroScene.h"
 
@@ -2150,6 +2246,52 @@ t1313400103
 s810
 i"PreviousButton.h"
 i"IntroScene.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.mm
+c000000004E4B8C4D0000000000000350
+t1313573965
+s848
+i"PreviousButton.h"
+i"IntroScene.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewStoryScene.h
+c000000004E4B757E00000000000000F7
+t1313568126
+s247
+i<Foundation/Foundation.h>
+i"IntroScene.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewStoryScene.m
+c000000004E4B787000000000000002C0
+t1313568880
+s704
+i"ReviewStoryScene.h"
+i"ReviewUI.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.h
+c000000004E4B856F0000000000000100
+t1313572207
+s256
+i<Foundation/Foundation.h>
+i"CCStoryUI.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.m
+c000000004E4B758D0000000000000463
+t1313568141
+s1123
+i"ReviewUI.h"
+i"BackButton.h"
+i"NextButton.h"
+i"PreviousButton.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.mm
+c000000004E4B8C4D0000000000000497
+t1313573965
+s1175
+i"ReviewUI.h"
+i"BackButton.h"
+i"NextButton.h"
+i"PreviousButton.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/RootScene.h
 c000000004E487AE800000000000000F9
@@ -2192,6 +2334,26 @@ t1312425969
 s1518
 i"ScrollableMenu.h"
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.h
+c000000004E4B8DC3000000000000012E
+t1313574339
+s302
+i<Foundation/Foundation.h>
+i"CCButton.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.m
+c000000004E4B60AD00000000000002C2
+t1313562797
+s706
+i"SkipButton.h"
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.mm
+c000000004E4B8EDA00000000000003BF
+t1313574618
+s959
+i"SkipButton.h"
+i"CCBReader.h"
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.h
 c000000004E0449EC0000000000000174
 t1308903916
@@ -2199,9 +2361,9 @@ s372
 i<UIKit/UIKit.h>
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.mm
-c000000004E43A103000000000000125F
-t1313054979
-s4703
+c000000004E4B6B6A00000000000012DC
+t1313565546
+s4828
 i"cocos2d.h"
 i"aPlankAppDelegate.h"
 i"GameConfig.h"
@@ -2210,6 +2372,7 @@ i"RootViewController.h"
 i"PlankScene.h"
 i"ScrollableMenu.h"
 i"IntroScene.h"
+i"CCBReader.h"
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Common.h
 c000000004E15199700000000000000D6
@@ -2327,6 +2490,11 @@ t1309500585
 s229
 i"LeftLegBone.h"
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/BackBtn.png
+c000000004E4B79AC000000000000114E
+t1313569196
+s4430
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/Default.png
 c000000004E0449EC00000000000077AB
 t1308903916
@@ -2366,6 +2534,16 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/Icon@2x.png
 c000000004E0449EC0000000000005375
 t1308903916
 s21365
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/MainMenu.ccb
+c000000004E4B6DA800000000000028F1
+t1313566120
+s10481
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/MenuBackground.png
+c000000004E4B61A60000000000004936
+t1313563046
+s18742
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/1(4).png
 c000000004E44DCED000000000000BC0D
@@ -2451,6 +2629,11 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/S6.png
 c000000004E44DCDB000000000000EBEE
 t1313135835
 s60398
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/SkipBtn.png
+c000000004E4B5F990000000000001126
+t1313562521
+s4390
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/Story.jpg
 c000000004E40F48B0000000000036573
@@ -2547,6 +2730,16 @@ c000000004E13CA200000000000001199
 t1309919776
 s4505
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/option.png
+c000000004E4B626600000000000009BC
+t1313563238
+s2492
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/optionPressed.png
+c000000004E4B691B0000000000001819
+t1313564955
+s6169
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/pivot.png
 c000000004E1A62330000000000000EEA
 t1310351923
@@ -2581,6 +2774,26 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/pu-leg.png
 c000000004E1559B90000000000000D61
 t1310022073
 s3425
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/review.png
+c000000004E4B62860000000000000993
+t1313563270
+s2451
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/reviewPressed.png
+c000000004E4B69190000000000001882
+t1313564953
+s6274
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/start.png
+c000000004E4B65B10000000000000939
+t1313564081
+s2361
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/startPressed.png
+c000000004E4B6915000000000000162F
+t1313564949
+s5679
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/RightArmBone.h
 c000000004E0D2A0000000000000000F4
@@ -2643,11 +2856,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app
-t1313403254
-s1326
+t1313576188
+s1666
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app.dSYM
-t1313403253
+t1313576188
 s102
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/1(4).png
@@ -2682,6 +2895,10 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/
 t2
 s0
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/BackBtn.png
+t1313573631
+s4558
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/Default.png
 t1313403246
 s31932
@@ -2713,6 +2930,14 @@ s23297
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/Info.plist
 t1313403245
 s1043
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/MainMenu.ccb
+t1313567220
+s10481
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/MenuBackground.png
+t1313567220
+s21076
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/NextBtn.png
 t1313403246
@@ -2758,6 +2983,10 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/
 t1313372598
 s57909
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/SkipBtn.png
+t1313562708
+s4488
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/Story.jpg
 t1313057372
 s222579
@@ -2767,8 +2996,8 @@ t1313403246
 s5683
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank
-t1313403253
-s2025024
+t1313576188
+s2062100
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/abc2.png
 t1313403246
@@ -2838,6 +3067,14 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/
 t1313403246
 s5035
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/option.png
+t1313567220
+s2988
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/optionPressed.png
+t1313567220
+s6461
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/pivot.png
 t1313403246
 s4842
@@ -2866,6 +3103,22 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/
 t1313403246
 s3642
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/review.png
+t1313567220
+s2786
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/reviewPressed.png
+t1313567220
+s6267
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/start.png
+t1313567220
+s2719
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/startPressed.png
+t1313567220
+s5780
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/story.plist
 t1313057372
 s639
@@ -2878,6 +3131,10 @@ s5216152
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/Actor.o
 t1313403249
 s59752
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BackButton.o
+t1313574555
+s14620
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BodyBone.o
 t1313403249
@@ -2903,13 +3160,17 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneo
 t1313403250
 s4676
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCBReader.o
+t1313567222
+s85120
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCBigImage.o
 t1313403252
 s51968
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCButton.o
-t1313403253
-s18228
+t1313573632
+s17876
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCMenuAdvanced.o
 t1313403252
@@ -2930,6 +3191,10 @@ s18116
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCSlider.o
 t1313403252
 s62220
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCStoryUI.o
+t1313574056
+s50480
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCTextureCache+CCBigImageExtensions.o
 t1313403252
@@ -2972,12 +3237,12 @@ t1313403250
 s10952
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroScene.o
-t1313403252
-s24320
+t1313575886
+s26820
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroUI.o
-t1313403253
-s52816
+t1313576187
+s14508
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/LeftArmBone.o
 t1313403249
@@ -2987,17 +3252,29 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneo
 t1313403250
 s5656
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/MainMenuScene.o
+t1313575886
+s11600
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/NextButton.o
-t1313403253
-s13480
+t1313576187
+s14288
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PlankScene.o
 t1313403249
 s116236
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PreviousButton.o
-t1313403253
-s13576
+t1313575886
+s14384
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewStoryScene.o
+t1313568880
+s11456
+
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewUI.o
+t1313574340
+s14524
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/RightArmBone.o
 t1313403249
@@ -3027,18 +3304,22 @@ N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneo
 t1313403252
 s31240
 
+N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SkipButton.o
+t1313574618
+s14620
+
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/Wood.o
 t1313403251
 s49608
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlank.LinkFileList
-c000000004E48F16D0000000000001450
-t1313403245
-s5200
+c000000004E4B8AFF000000000000174F
+t1313573631
+s5967
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlankAppDelegate.o
-t1313403248
-s61108
+t1313575886
+s61324
 
 N/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/main.o
 t1313403247
@@ -4143,6 +4424,11 @@ c000000004CC1098E0000000000000A2F
 t1287719310
 s2607
 
+N/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/objc/runtime.h
+c000000004CC1098E00000000000053F9
+t1287719310
+s21497
+
 N/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stddef.h
 c000000004CB3E4B80000000000001404
 t1286857912
@@ -4191,7 +4477,7 @@ s1277
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies335096045#335096045#0(0"0(0#1#0"8661037664#0"0#
+lSLF07#2@18"Check dependencies335268987#335268987#0(0"0(0#1#0"8662557248#0"0#
 
 CCodeSign "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app"
 s332158140.326489
@@ -4202,12 +4488,12 @@ x/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app
 lSLF07#2@40"CodeSign build/Debug-iphoneos/aPlank.app332158140#332158141#0(0"0(0#0#78"/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app8759306528#742"    cd "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank"    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Nelson Hung (C466W8TM8M)" "--resource-rules=/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app/ResourceRules.plist" --entitlements "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.xcent" "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app"0#
 
 CCodeSign /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app
-s335096054.010663
-e335096054.259151
+s335268988.280412
+e335268988.548219
 r1
 xCodeSign
 x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app
-lSLF07#2@40"CodeSign build/Debug-iphoneos/aPlank.app335096054#335096054#0(0"0(0#0#78"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app8659493248#734"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Nelson Hung (C466W8TM8M)" --resource-rules=/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/ResourceRules.plist --entitlements /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.xcent /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app0#
+lSLF07#2@40"CodeSign build/Debug-iphoneos/aPlank.app335268988#335268988#0(0"0(0#0#78"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app8636764000#734"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Nelson Hung (C466W8TM8M)" --resource-rules=/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/ResourceRules.plist --entitlements /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.xcent /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/Actor.o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Actor.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 s332158133.511376
@@ -4234,6 +4520,32 @@ xarmv6
 xobjective-c++
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@63"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Actor.mm335096048#335096049#0(0"0(0#0#55"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Actor.mm8705756064#1670"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Actor.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/Actor.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BackButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s335261625.415665
+e335261625.743015
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BackButton.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.m335261625#335261625#0(0"0(0#0#67"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.m8692158752#1666"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BackButton.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BackButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s335267355.246493
+e335267355.546576
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BackButton.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@76"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.mm335267355#335267355#0(0"0(0#0#68"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.mm8674787392#1688"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/BackButton.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BackButton.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BodyBone.o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/BodyBone.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 s332158134.792336
@@ -4391,6 +4703,19 @@ xobjective-c++
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@72"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/BoneMathHelper.mm335096050#335096050#0(0"0(0#0#64"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/BoneMathHelper.mm8702236576#1688"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/BoneMathHelper.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/BoneMathHelper.o0#
 
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCBReader.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCBReader.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s335260021.784933
+e335260022.284615
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCBReader.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCBReader.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@74"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCBReader.m335260021#335260022#0(0"0(0#0#66"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCBReader.m8663300544#1664"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCBReader.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCBReader.o0#
+
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCBigImage.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/CCBigImage/CCBigImage.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s335096051.811747
 e335096052.077980
@@ -4416,6 +4741,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@73"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.m335096052#335096053#0(0"0(0#0#65"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.m8656441824#1662"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCButton.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s335266432.500454
+e335266432.678612
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCButton.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@74"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.mm335266432#335266432#0(0"0(0#0#66"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.mm8638888768#1684"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCButton.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCButton.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCMenuAdvanced.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/CCMenuAdvanced/CCMenuAdvanced.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s335096052.078088
@@ -4481,6 +4819,19 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@74"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/CCSlider/CCSlider.m335096052#335096052#0(0"0(0#0#66"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/CCSlider/CCSlider.m8702797184#1663"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/CCSlider/CCSlider.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCSlider.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCStoryUI.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCStoryUI.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s335266855.797922
+e335266856.627817
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCStoryUI.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCStoryUI.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCStoryUI.mm335266855#335266856#0(0"0(0#0#67"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCStoryUI.mm8709149472#1686"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/CCStoryUI.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCStoryUI.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/CCTextureCache+CCBigImageExtensions.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/CCBigImage/CCTextureCache+CCBigImageExtensions.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s335096051.960050
@@ -4743,8 +5094,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@71"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/HumanSkeleton.mm335096049#335096050#0(0"0(0#0#63"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/HumanSkeleton.mm8709971904#1686"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/HumanSkeleton.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/HumanSkeleton.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroScene.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
-s335096052.690767
-e335096052.895075
+s335268685.887159
+e335268686.178815
 r1
 xCompileC
 xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroScene.o
@@ -4753,7 +5104,7 @@ xnormal
 xarmv6
 xobjective-c++
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@76"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm335096052#335096052#0(0"0(0#0#68"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm8673796128#1688"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroScene.o0#
+lSLF07#2@76"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm335268685#335268686#0(0"0(0#0#68"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm8649854976#1688"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroScene.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroScene.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroUI.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s335065398.540548
@@ -4769,8 +5120,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@72"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.m335065398#335065399#0(0"0(0#0#64"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.m8611587232#1660"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroUI.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroUI.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
-s335096052.768646
-e335096053.242930
+s335268987.339419
+e335268987.697756
 r1
 xCompileC
 xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroUI.o
@@ -4779,7 +5130,7 @@ xnormal
 xarmv6
 xobjective-c++
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@73"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm335096052#335096053#0(0"0(0#0#65"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm8658219776#1682"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroUI.o0#
+lSLF07#2@73"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm335268987#335268987#0(0"0(0#0#65"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm8636865120#1682"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/IntroUI.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/IntroUI.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/LeftArmBone.o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/LeftArmBone.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 s332158135.099924
@@ -4833,9 +5184,35 @@ xobjective-c++
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@69"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/LeftLegBone.mm335096049#335096050#0(0"0(0#0#61"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/LeftLegBone.mm8707137728#1682"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/LeftLegBone.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/LeftLegBone.o0#
 
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/MainMenuScene.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s335261786.182192
+e335261786.424217
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/MainMenuScene.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.m335261786#335261786#0(0"0(0#0#70"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.m8688084256#1672"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/MainMenuScene.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/MainMenuScene.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s335268686.533932
+e335268686.711314
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/MainMenuScene.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@79"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.mm335268686#335268686#0(0"0(0#0#71"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.mm8699673248#1694"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/MainMenuScene.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/MainMenuScene.o0#
+
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/NextButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
-s335096053.033119
-e335096053.173754
+s335268987.437474
+e335268987.706586
 r1
 xCompileC
 xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/NextButton.o
@@ -4844,7 +5221,7 @@ xnormal
 xarmv6
 xobjective-c++
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@76"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm335096053#335096053#0(0"0(0#0#68"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm8664820960#1688"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/NextButton.o0#
+lSLF07#2@76"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm335268987#335268987#0(0"0(0#0#68"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm8735559456#1688"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/NextButton.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/NextButton.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PlankScene.o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Classes/PlankScene.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 s332158133.017648
@@ -4884,6 +5261,58 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@79"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.m335096053#335096053#0(0"0(0#0#71"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.m8663677888#1674"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PreviousButton.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PreviousButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s335268686.352839
+e335268686.533604
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PreviousButton.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.mm335268686#335268686#0(0"0(0#0#72"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.mm8620987360#1696"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/PreviousButton.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/PreviousButton.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewStoryScene.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewStoryScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s335261680.416821
+e335261680.661555
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewStoryScene.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewStoryScene.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@81"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewStoryScene.m335261680#335261680#0(0"0(0#0#73"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewStoryScene.m8680238816#1678"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewStoryScene.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewStoryScene.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewUI.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s335260942.158023
+e335260942.526772
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewUI.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@73"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.m335260942#335260942#0(0"0(0#0#65"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.m8686870400#1662"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewUI.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewUI.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s335267140.610821
+e335267140.790806
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewUI.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@74"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.mm335267140#335267140#0(0"0(0#0#66"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.mm8651123200#1684"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/ReviewUI.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/ReviewUI.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/RightArmBone.o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/RightArmBone.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 s332158135.250137
@@ -5525,6 +5954,32 @@ xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@93"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/FilesDownloader/SingleFileDownloader.m335096052#335096052#0(0"0(0#0#85"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/FilesDownloader/SingleFileDownloader.m8678988704#1694"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/FilesDownloader/SingleFileDownloader.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SingleFileDownloader.o0#
 
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SkipButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s335255597.836187
+e335255598.035995
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SkipButton.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.m335255597#335255598#0(0"0(0#0#67"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.m8691983296#1666"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-ggeymcwplqsskubxsokltwtzrdig/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.m -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SkipButton.o0#
+
+CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SkipButton.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s335267418.668356
+e335267418.998350
+r1
+xCompileC
+xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SkipButton.o
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@76"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.mm335267418#335267419#0(0"0(0#0#68"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.mm8673455232#1688"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/SkipButton.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/SkipButton.o0#
+
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/Wood.o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Wood.mm" normal armv6 objective-c++ com.apple.compilers.llvmgcc42
 s332158136.924458
 e332158137.333974
@@ -5565,8 +6020,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@83"Compile /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Classes/aPlankAppDelegate.mm332158130#332158132#0(0"0(0#0#75"/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Classes/aPlankAppDelegate.mm8811829408#1718"    cd "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank"    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 "-I/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap" -Wall "-F/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos" "-I/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/include" -Ilibs "-I/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6" "-I/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources" -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-buvlutbbpulccjhebiktgqgksyrc/aPlank_Prefix.pch -c "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/Classes/aPlankAppDelegate.mm" -o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlankAppDelegate.o"0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlankAppDelegate.o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
-s335096047.855137
-e335096048.336138
+s335268685.869241
+e335268686.782136
 r1
 xCompileC
 xbuild/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlankAppDelegate.o
@@ -5575,7 +6030,7 @@ xnormal
 xarmv6
 xobjective-c++
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@83"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.mm335096047#335096048#0(0"0(0#0#75"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.mm8699715904#1702"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlankAppDelegate.o0#
+lSLF07#2@83"Compile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.mm335268685#335268686#0(0"0(0#0#75"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.mm8660306752#1702"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv LANG en_US.US-ASCII    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/aPlank.hmap -Wall -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/include -Ilibs -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources/armv6 -I/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/DerivedSources -fvisibility=hidden -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/ka/ka1+sV0nEdGtKp9q-0ju4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/aPlank_Prefix-eskmskuaxwxmmebktfkjjvgmjzrf/aPlank_Prefix.pch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Classes/aPlankAppDelegate.mm -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlankAppDelegate.o0#
 
 CCompileC build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/main.o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/main.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
 s331642577.348545
@@ -5816,6 +6271,15 @@ r0
 CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/B.png Resources/StoryIntro/B.png
 r0
 
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/BackBtn.png Resources/BackBtn.png
+s335266431.146548
+e335266431.456727
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/BackBtn.png
+xResources/BackBtn.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/aPlank.app/BackBtn.png Resources/BackBtn.png335266431#335266431#0(0"0(0#0#68"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/BackBtn.png8650090912#675"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/BackBtn.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/BackBtn.png0#
+
 CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/Default.png Resources/Default.png
 s335096045.535697
 e335096046.020851
@@ -5878,6 +6342,15 @@ xCopyPNGFile
 x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/Icon@2x.png
 xResources/Icon@2x.png
 lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/aPlank.app/Icon@2x.png Resources/Icon@2x.png335096045#335096045#0(0"0(0#0#68"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/Icon@2x.png8677316256#675"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/Icon@2x.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/Icon@2x.png0#
+
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/MenuBackground.png Resources/MenuBackground.png
+s335260020.564710
+e335260020.864231
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/MenuBackground.png
+xResources/MenuBackground.png
+lSLF07#2@91"CopyPNGFile build/Debug-iphoneos/aPlank.app/MenuBackground.png Resources/MenuBackground.png335260020#335260020#0(0"0(0#0#75"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/MenuBackground.png8621455296#689"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/MenuBackground.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/MenuBackground.png0#
 
 CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/NextBtn.png Resources/StoryIntro/NextBtn.png
 s335096046.927633
@@ -5959,6 +6432,15 @@ xCopyPNGFile
 x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/S6.png
 xResources/StoryIntro/S6.png
 lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/aPlank.app/S6.png Resources/StoryIntro/S6.png335065398#335065398#0(0"0(0#0#74"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/S6.png8614360448#676"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/S6.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/S6.png0#
+
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/SkipBtn.png Resources/StoryIntro/SkipBtn.png
+s335255508.627265
+e335255508.878053
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/SkipBtn.png
+xResources/StoryIntro/SkipBtn.png
+lSLF07#2@88"CopyPNGFile build/Debug-iphoneos/aPlank.app/SkipBtn.png Resources/StoryIntro/SkipBtn.png335255508#335255508#0(0"0(0#0#79"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/SkipBtn.png8649125536#686"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/SkipBtn.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/SkipBtn.png0#
 
 CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/Wood2.png Resources/Wood2.png
 s335096045.972954
@@ -6104,6 +6586,24 @@ x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/
 xResources/leg.png
 lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/aPlank.app/leg.png Resources/leg.png335096046#335096046#0(0"0(0#0#64"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/leg.png8659126656#667"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/leg.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/leg.png0#
 
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/option.png Resources/option.png
+s335260020.566202
+e335260020.616386
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/option.png
+xResources/option.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/aPlank.app/option.png Resources/option.png335260020#335260020#0(0"0(0#0#67"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/option.png8641689856#673"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/option.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/option.png0#
+
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/optionPressed.png Resources/optionPressed.png
+s335260020.616486
+e335260020.660664
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/optionPressed.png
+xResources/optionPressed.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/aPlank.app/optionPressed.png Resources/optionPressed.png335260020#335260020#0(0"0(0#0#74"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/optionPressed.png8702833792#687"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/optionPressed.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/optionPressed.png0#
+
 CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/pivot.png Resources/pivot.png
 s335096046.192029
 e335096046.227168
@@ -6167,6 +6667,42 @@ x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/
 xResources/pu-leg.png
 lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/aPlank.app/pu-leg.png Resources/pu-leg.png335096046#335096046#0(0"0(0#0#67"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/pu-leg.png8656618560#673"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/pu-leg.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/pu-leg.png0#
 
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/review.png Resources/review.png
+s335260020.660766
+e335260020.700546
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/review.png
+xResources/review.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/aPlank.app/review.png Resources/review.png335260020#335260020#0(0"0(0#0#67"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/review.png8681658464#673"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/review.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/review.png0#
+
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/reviewPressed.png Resources/reviewPressed.png
+s335260020.700647
+e335260020.754658
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/reviewPressed.png
+xResources/reviewPressed.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/aPlank.app/reviewPressed.png Resources/reviewPressed.png335260020#335260020#0(0"0(0#0#74"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/reviewPressed.png8662545856#687"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/reviewPressed.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/reviewPressed.png0#
+
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/start.png Resources/start.png
+s335260020.754757
+e335260020.785614
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/start.png
+xResources/start.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/aPlank.app/start.png Resources/start.png335260020#335260020#0(0"0(0#0#66"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/start.png8633804992#671"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/start.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/start.png0#
+
+CCopyPNGFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/startPressed.png Resources/startPressed.png
+s335260020.785711
+e335260020.838132
+r1
+xCopyPNGFile
+x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/startPressed.png
+xResources/startPressed.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/aPlank.app/startPressed.png Resources/startPressed.png335260020#335260020#0(0"0(0#0#73"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/startPressed.png8607363104#685"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv COPY_COMMAND /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/startPressed.png /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/startPressed.png0#
+
 CCopyPlistFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/story.plist Resources/StoryIntro/story.plist
 s334750172.349798
 e334750172.372593
@@ -6175,6 +6711,15 @@ xCopyPlistFile
 x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/story.plist
 xResources/StoryIntro/story.plist
 lSLF07#2@37"Copy Resources/StoryIntro/story.plist334750172#334750172#0(0"0(0#0#79"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/StoryIntro/story.plist8614617632#468"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/StoryIntro/story.plist --outdir /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app0#
+
+CCpResource build/Debug-iphoneos/aPlank.app/MainMenu.ccb Resources/MainMenu.ccb
+s335260020.543962
+e335260020.566119
+r1
+xCpResource
+xbuild/Debug-iphoneos/aPlank.app/MainMenu.ccb
+xResources/MainMenu.ccb
+lSLF07#2@27"Copy Resources/MainMenu.ccb335260020#335260020#0(0"0(0#0#69"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/MainMenu.ccb8622769664#549"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/Resources/MainMenu.ccb /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app0#
 
 CCpResource build/Debug-iphoneos/aPlank.app/ResourceRules.plist /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 s335096045.503518
@@ -6213,13 +6758,13 @@ x/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app/
 lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/aPlank.app.dSYM build/Debug-iphoneos/aPlank.app/aPlank332158139#332158140#0(0"0(0#0#85"/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank8795821792#449"    cd "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank"    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/usr/bin/dsymutil "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank" -o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app.dSYM"0#
 
 CGenerateDSYMFile /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app.dSYM /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank
-s335096053.708138
-e335096053.946685
+s335268988.032357
+e335268988.276649
 r1
 xGenerateDSYMFile
 x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app.dSYM
 x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank
-lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/aPlank.app.dSYM build/Debug-iphoneos/aPlank.app/aPlank335096053#335096053#0(0"0(0#0#85"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank8706834496#443"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/usr/bin/dsymutil /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app.dSYM0#
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/aPlank.app.dSYM build/Debug-iphoneos/aPlank.app/aPlank335268988#335268988#0(0"0(0#0#85"/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank8677302560#443"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/usr/bin/dsymutil /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app.dSYM0#
 
 CLd "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank" normal armv6
 s332158138.550929
@@ -6232,14 +6777,14 @@ xarmv6
 lSLF07#2@90"Link /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank332158138#332158139#0(0"0(0#0#0"8801251264#1102"    cd "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv6 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos" "-F/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos" -filelist "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlank.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank"0#
 
 CLd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank normal armv6
-s335096053.309146
-e335096053.708027
+s335268987.706693
+e335268988.032241
 r1
 xLd
 x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank
 xnormal
 xarmv6
-lSLF07#2@90"Link /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank335096053#335096053#0(0"0(0#0#0"8663015488#1092"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv6 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -filelist /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlank.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank0#
+lSLF07#2@90"Link /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank335268987#335268988#0(0"0(0#0#0"8636501312#1092"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv6 -isysroot /Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -F/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos -filelist /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/aPlank.build/Debug-iphoneos/aPlank.build/Objects-normal/armv6/aPlank.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app/aPlank0#
 
 CProcessInfoPlistFile "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app/Info.plist" Resources/Info.plist
 s332061782.096221
@@ -6374,10 +6919,10 @@ x/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app
 lSLF07#2@84"Touch /Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app332158140#332158140#0(0"0(0#0#0"8803149280#323"    cd "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank"    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/build/Debug-iphoneos/aPlank.app"0#
 
 CTouch /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app
-s335096053.955908
-e335096053.960512
+s335268988.277285
+e335268988.280221
 r1
 xTouch
 x/Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app
-lSLF07#2@84"Touch /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app335096053#335096053#0(0"0(0#0#0"8673881280#319"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app0#
+lSLF07#2@84"Touch /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app335268988#335268988#0(0"0(0#0#0"8633550784#319"    cd /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank    setenv PATH "/Volumes/Disk2/IphoneDeveloper/Platforms/iPhoneOS.platform/Developer/usr/bin:/Volumes/Disk2/IphoneDeveloper/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/build/Debug-iphoneos/aPlank.app0#
 

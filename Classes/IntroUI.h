@@ -7,18 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "cocos2d.h"
+#import "CCStoryUI.h"
 
 #define ButtonHeight 20
 
-@interface IntroUI : CCLayer {
+@interface IntroUI : CCStoryUI {
 	
-	NSMutableArray *uiElements;
-	id currentContactUI;
 }
-
-@property (nonatomic, retain) NSMutableArray *uiElements;
-
--(void)layoutUI;
 
 @end

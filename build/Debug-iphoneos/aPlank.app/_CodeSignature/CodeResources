@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>BackBtn.png</key>
+		<data>
+		HMIHtOWNNZkQKRSyRz00lQC3/ZM=
+		</data>
 		<key>Default.png</key>
 		<data>
 		GMnDY+7MpXsYdu29GbRE4rbJ1RM=
@@ -31,6 +35,14 @@
 		<key>Icon@2x.png</key>
 		<data>
 		2cQwcj4VIP/rRJdUoMqmQHzdKwQ=
+		</data>
+		<key>MainMenu.ccb</key>
+		<data>
+		C0nJV+DjbwDWZN+VDQE0IbGEEak=
+		</data>
+		<key>MenuBackground.png</key>
+		<data>
+		HQmfvxbKbj8CNs+hGL7ZJ4C8R9c=
 		</data>
 		<key>NextBtn.png</key>
 		<data>
@@ -68,6 +80,10 @@
 		<data>
 		aZws2plYV276nG01bm8DZUuVXRo=
 		</data>
+		<key>SkipBtn.png</key>
+		<data>
+		cZEvCiIxysr3OsSUkLVxMHg95pA=
+		</data>
 		<key>Wood2.png</key>
 		<data>
 		m0lJEiK6IAg/4cZnBdcgLyU8kO4=
@@ -104,6 +120,14 @@
 		<data>
 		e0MdEm8ykIZioT0LMGLuFbjkn6M=
 		</data>
+		<key>option.png</key>
+		<data>
+		x44nCsVfec7UztOw3EAcuLpD54g=
+		</data>
+		<key>optionPressed.png</key>
+		<data>
+		d9AreUlKzMNmACwn7+dya3npdj8=
+		</data>
 		<key>pivot.png</key>
 		<data>
 		Pii2aCMiwoWeTjSYjmnzNIOdEzM=
@@ -131,6 +155,22 @@
 		<key>pu-leg.png</key>
 		<data>
 		kywUHTapdlfhQAdKOFMj4I3GhaU=
+		</data>
+		<key>review.png</key>
+		<data>
+		10B+mjmtreRWnVCNuAmkkU4Layk=
+		</data>
+		<key>reviewPressed.png</key>
+		<data>
+		g//guWHcDMAjs8wFgSC2HQ28qt0=
+		</data>
+		<key>start.png</key>
+		<data>
+		6w9j5b4lPfOCE6dxg+bcGOPqhUs=
+		</data>
+		<key>startPressed.png</key>
+		<data>
+		tFP/DdTiQVR6WnSlUB5/L60fAb8=
 		</data>
 	</dict>
 	<key>rules</key>

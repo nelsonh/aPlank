@@ -13,8 +13,10 @@
 @implementation IntroScene
 
 @synthesize actionList;
+@synthesize currentUI;
+@synthesize currentSlide;
 
-static IntroScene *introSceneInstance;
+static id introSceneInstance;
 
 +(id)scene
 {
@@ -42,10 +44,6 @@ static IntroScene *introSceneInstance;
 		
 		//layout image
 		[self layoutImage];
-		
-		//create ui layer
-		IntroUI *uilayer=[IntroUI node];
-		[self addChild:uilayer];
 		
 		currentSlide=1;
 		
@@ -85,6 +83,7 @@ static IntroScene *introSceneInstance;
 
 -(void)layoutImage
 {
+	
 	CGSize screenSize=[CCDirector sharedDirector].winSize;
 	CGPoint startPos=CGPointMake(screenSize.width/2, screenSize.height/2);
 	
@@ -102,6 +101,13 @@ static IntroScene *introSceneInstance;
 		//calculate next pic position
 		startPos=CGPointMake(startPos.x+storyImage.contentSize.width, startPos.y);
 	}
+}
+
+-(void)layoutUIWithUI:(CCNode*)uiNode
+{
+	//create ui layer
+	[self addChild:uiNode];
+	self.currentUI=uiNode;
 }
 
 -(void)moveLeftASlide
@@ -164,11 +170,17 @@ static IntroScene *introSceneInstance;
 	currentSlide-=1;
 }
 
+-(int)totalSlides
+{
+	return TotalImages;
+}
+
 
 
 -(void)dealloc
 {
 	self.actionList=nil;
+	self.currentUI=nil;
 	
 	[super dealloc];
 }

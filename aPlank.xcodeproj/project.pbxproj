@@ -191,9 +191,25 @@
 		52D7DEE813F8AE8000554977 /* IntroUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7DEE713F8AE8000554977 /* IntroUI.mm */; };
 		52D7DF1013F8C62800554977 /* NextBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7DF0E13F8C62800554977 /* NextBtn.png */; };
 		52D7DF1113F8C62800554977 /* PreviousBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7DF0F13F8C62800554977 /* PreviousBtn.png */; };
-		52D7E07913F8EA6E00554977 /* CCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E07813F8EA6E00554977 /* CCButton.m */; };
+		52D7E07913F8EA6E00554977 /* CCButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E07813F8EA6E00554977 /* CCButton.mm */; };
 		52D7E07E13F8ECBD00554977 /* NextButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E07D13F8ECBD00554977 /* NextButton.mm */; };
-		52D7E27813F91B6B00554977 /* PreviousButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E27713F91B6B00554977 /* PreviousButton.m */; };
+		52D7E27813F91B6B00554977 /* PreviousButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E27713F91B6B00554977 /* PreviousButton.mm */; };
+		52D7E44313FB975600554977 /* SkipBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E44213FB975600554977 /* SkipBtn.png */; };
+		52D7E44713FB977000554977 /* SkipButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E44613FB977000554977 /* SkipButton.mm */; };
+		52D7E49413FB9FE100554977 /* CCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E49313FB9FE100554977 /* CCBReader.m */; };
+		52D7E49D13FBA02700554977 /* MainMenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E49C13FBA02700554977 /* MainMenuScene.mm */; };
+		52D7E52713FBA54B00554977 /* MainMenu.ccb in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E51F13FBA54B00554977 /* MainMenu.ccb */; };
+		52D7E52813FBA54B00554977 /* MenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E52013FBA54B00554977 /* MenuBackground.png */; };
+		52D7E52913FBA54B00554977 /* option.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E52113FBA54B00554977 /* option.png */; };
+		52D7E52A13FBA54B00554977 /* optionPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E52213FBA54B00554977 /* optionPressed.png */; };
+		52D7E52B13FBA54B00554977 /* review.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E52313FBA54B00554977 /* review.png */; };
+		52D7E52C13FBA54B00554977 /* reviewPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E52413FBA54B00554977 /* reviewPressed.png */; };
+		52D7E52D13FBA54B00554977 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E52513FBA54B00554977 /* start.png */; };
+		52D7E52E13FBA54B00554977 /* startPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E52613FBA54B00554977 /* startPressed.png */; };
+		52D7E57313FBAC1A00554977 /* ReviewUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E57213FBAC1A00554977 /* ReviewUI.mm */; };
+		52D7E57613FBAC9C00554977 /* BackButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E57513FBAC9C00554977 /* BackButton.mm */; };
+		52D7E5DC13FBB20C00554977 /* BackBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E5DB13FBB20C00554977 /* BackBtn.png */; };
+		52D7E65F13FBBC3500554977 /* CCStoryUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E65E13FBBC3500554977 /* CCStoryUI.mm */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -608,11 +624,33 @@
 		52D7DF0E13F8C62800554977 /* NextBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextBtn.png; sourceTree = "<group>"; };
 		52D7DF0F13F8C62800554977 /* PreviousBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousBtn.png; sourceTree = "<group>"; };
 		52D7E07713F8EA6E00554977 /* CCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCButton.h; sourceTree = "<group>"; };
-		52D7E07813F8EA6E00554977 /* CCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCButton.m; sourceTree = "<group>"; };
+		52D7E07813F8EA6E00554977 /* CCButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCButton.mm; sourceTree = "<group>"; };
 		52D7E07C13F8ECBD00554977 /* NextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextButton.h; sourceTree = "<group>"; };
 		52D7E07D13F8ECBD00554977 /* NextButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NextButton.mm; sourceTree = "<group>"; };
 		52D7E27613F91B6B00554977 /* PreviousButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviousButton.h; sourceTree = "<group>"; };
-		52D7E27713F91B6B00554977 /* PreviousButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviousButton.m; sourceTree = "<group>"; };
+		52D7E27713F91B6B00554977 /* PreviousButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PreviousButton.mm; sourceTree = "<group>"; };
+		52D7E44213FB975600554977 /* SkipBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkipBtn.png; sourceTree = "<group>"; };
+		52D7E44513FB977000554977 /* SkipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkipButton.h; sourceTree = "<group>"; };
+		52D7E44613FB977000554977 /* SkipButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SkipButton.mm; sourceTree = "<group>"; };
+		52D7E49213FB9FE100554977 /* CCBReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBReader.h; sourceTree = "<group>"; };
+		52D7E49313FB9FE100554977 /* CCBReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBReader.m; sourceTree = "<group>"; };
+		52D7E49B13FBA02700554977 /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		52D7E49C13FBA02700554977 /* MainMenuScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainMenuScene.mm; sourceTree = "<group>"; };
+		52D7E51F13FBA54B00554977 /* MainMenu.ccb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MainMenu.ccb; sourceTree = "<group>"; };
+		52D7E52013FBA54B00554977 /* MenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackground.png; sourceTree = "<group>"; };
+		52D7E52113FBA54B00554977 /* option.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = option.png; sourceTree = "<group>"; };
+		52D7E52213FBA54B00554977 /* optionPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = optionPressed.png; sourceTree = "<group>"; };
+		52D7E52313FBA54B00554977 /* review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = review.png; sourceTree = "<group>"; };
+		52D7E52413FBA54B00554977 /* reviewPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reviewPressed.png; sourceTree = "<group>"; };
+		52D7E52513FBA54B00554977 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		52D7E52613FBA54B00554977 /* startPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startPressed.png; sourceTree = "<group>"; };
+		52D7E57113FBAC1A00554977 /* ReviewUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewUI.h; sourceTree = "<group>"; };
+		52D7E57213FBAC1A00554977 /* ReviewUI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ReviewUI.mm; sourceTree = "<group>"; };
+		52D7E57413FBAC9C00554977 /* BackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackButton.h; sourceTree = "<group>"; };
+		52D7E57513FBAC9C00554977 /* BackButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BackButton.mm; sourceTree = "<group>"; };
+		52D7E5DB13FBB20C00554977 /* BackBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackBtn.png; sourceTree = "<group>"; };
+		52D7E65D13FBBC3500554977 /* CCStoryUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStoryUI.h; sourceTree = "<group>"; };
+		52D7E65E13FBBC3500554977 /* CCStoryUI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCStoryUI.mm; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -887,7 +925,11 @@
 		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				52D7E65C13FBBC1500554977 /* StoyUI */,
+				52D7E48E13FB9FD300554977 /* CCBReader */,
 				52D7E07013F8EA0C00554977 /* Button */,
+				52D7E56A13FBAABE00554977 /* ReviewStory */,
+				52D7E48A13FB9F8800554977 /* MainMenu */,
 				52D7DEE413F8AE0E00554977 /* IntroductionScene */,
 				E0F81061120A17DF005866B8 /* GameConfig.h */,
 				50F4143710692D7D002A0D5E /* GLES-Render.h */,
@@ -1141,6 +1183,8 @@
 		50F4144210692EE7002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				52D7E5D913FBB1F400554977 /* ReviewStory */,
+				52D7E4A013FBA1B100554977 /* MainMenu */,
 				520BAD5713F12F600089B66D /* StoryIntro */,
 				523371A213CAD88500AAA78D /* pivot.png */,
 				52A1DCEF13C6E4E6003C2267 /* abc2.png */,
@@ -1184,6 +1228,7 @@
 		520BAD5713F12F600089B66D /* StoryIntro */ = {
 			isa = PBXGroup;
 			children = (
+				52D7E44213FB975600554977 /* SkipBtn.png */,
 				52D7DF0E13F8C62800554977 /* NextBtn.png */,
 				52D7DF0F13F8C62800554977 /* PreviousBtn.png */,
 				523281A113F8A928001BC2B2 /* S0.png */,
@@ -1371,14 +1416,9 @@
 		52D7DEE413F8AE0E00554977 /* IntroductionScene */ = {
 			isa = PBXGroup;
 			children = (
+				52D7E69113FBBE9500554977 /* IntroUI */,
 				520BAD6D13F12FE60089B66D /* IntroScene.h */,
 				520BAD6E13F12FE60089B66D /* IntroScene.mm */,
-				52D7DEE613F8AE8000554977 /* IntroUI.h */,
-				52D7DEE713F8AE8000554977 /* IntroUI.mm */,
-				52D7E07C13F8ECBD00554977 /* NextButton.h */,
-				52D7E07D13F8ECBD00554977 /* NextButton.mm */,
-				52D7E27613F91B6B00554977 /* PreviousButton.h */,
-				52D7E27713F91B6B00554977 /* PreviousButton.m */,
 			);
 			name = IntroductionScene;
 			sourceTree = "<group>";
@@ -1387,7 +1427,7 @@
 			isa = PBXGroup;
 			children = (
 				52D7E07713F8EA6E00554977 /* CCButton.h */,
-				52D7E07813F8EA6E00554977 /* CCButton.m */,
+				52D7E07813F8EA6E00554977 /* CCButton.mm */,
 			);
 			name = Button;
 			sourceTree = "<group>";
@@ -1400,6 +1440,90 @@
 			);
 			name = Helper;
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		52D7E48A13FB9F8800554977 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E49B13FBA02700554977 /* MainMenuScene.h */,
+				52D7E49C13FBA02700554977 /* MainMenuScene.mm */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		52D7E48E13FB9FD300554977 /* CCBReader */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E49213FB9FE100554977 /* CCBReader.h */,
+				52D7E49313FB9FE100554977 /* CCBReader.m */,
+			);
+			name = CCBReader;
+			sourceTree = "<group>";
+		};
+		52D7E4A013FBA1B100554977 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E51F13FBA54B00554977 /* MainMenu.ccb */,
+				52D7E52013FBA54B00554977 /* MenuBackground.png */,
+				52D7E52113FBA54B00554977 /* option.png */,
+				52D7E52213FBA54B00554977 /* optionPressed.png */,
+				52D7E52313FBA54B00554977 /* review.png */,
+				52D7E52413FBA54B00554977 /* reviewPressed.png */,
+				52D7E52513FBA54B00554977 /* start.png */,
+				52D7E52613FBA54B00554977 /* startPressed.png */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		52D7E56A13FBAABE00554977 /* ReviewStory */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E69213FBBEA800554977 /* ReviewUI */,
+			);
+			name = ReviewStory;
+			sourceTree = "<group>";
+		};
+		52D7E5D913FBB1F400554977 /* ReviewStory */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E5DB13FBB20C00554977 /* BackBtn.png */,
+			);
+			name = ReviewStory;
+			sourceTree = "<group>";
+		};
+		52D7E65C13FBBC1500554977 /* StoyUI */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E65D13FBBC3500554977 /* CCStoryUI.h */,
+				52D7E65E13FBBC3500554977 /* CCStoryUI.mm */,
+			);
+			name = StoyUI;
+			sourceTree = "<group>";
+		};
+		52D7E69113FBBE9500554977 /* IntroUI */ = {
+			isa = PBXGroup;
+			children = (
+				52D7DEE613F8AE8000554977 /* IntroUI.h */,
+				52D7DEE713F8AE8000554977 /* IntroUI.mm */,
+				52D7E07C13F8ECBD00554977 /* NextButton.h */,
+				52D7E07D13F8ECBD00554977 /* NextButton.mm */,
+				52D7E27613F91B6B00554977 /* PreviousButton.h */,
+				52D7E27713F91B6B00554977 /* PreviousButton.mm */,
+				52D7E44513FB977000554977 /* SkipButton.h */,
+				52D7E44613FB977000554977 /* SkipButton.mm */,
+			);
+			name = IntroUI;
+			sourceTree = "<group>";
+		};
+		52D7E69213FBBEA800554977 /* ReviewUI */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E57113FBAC1A00554977 /* ReviewUI.h */,
+				52D7E57213FBAC1A00554977 /* ReviewUI.mm */,
+				52D7E57413FBAC9C00554977 /* BackButton.h */,
+				52D7E57513FBAC9C00554977 /* BackButton.mm */,
+			);
+			name = ReviewUI;
 			sourceTree = "<group>";
 		};
 		E02BB8BF126CC28A006E46A2 /* cocos2d */ = {
@@ -1864,6 +1988,16 @@
 				523281AC13F8A929001BC2B2 /* S5.png in Resources */,
 				52D7DF1013F8C62800554977 /* NextBtn.png in Resources */,
 				52D7DF1113F8C62800554977 /* PreviousBtn.png in Resources */,
+				52D7E44313FB975600554977 /* SkipBtn.png in Resources */,
+				52D7E52713FBA54B00554977 /* MainMenu.ccb in Resources */,
+				52D7E52813FBA54B00554977 /* MenuBackground.png in Resources */,
+				52D7E52913FBA54B00554977 /* option.png in Resources */,
+				52D7E52A13FBA54B00554977 /* optionPressed.png in Resources */,
+				52D7E52B13FBA54B00554977 /* review.png in Resources */,
+				52D7E52C13FBA54B00554977 /* reviewPressed.png in Resources */,
+				52D7E52D13FBA54B00554977 /* start.png in Resources */,
+				52D7E52E13FBA54B00554977 /* startPressed.png in Resources */,
+				52D7E5DC13FBB20C00554977 /* BackBtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1911,9 +2045,15 @@
 				52B7DA0113E8DB3900A59BE8 /* SingleFileDownloader.m in Sources */,
 				520BAD6F13F12FE60089B66D /* IntroScene.mm in Sources */,
 				52D7DEE813F8AE8000554977 /* IntroUI.mm in Sources */,
-				52D7E07913F8EA6E00554977 /* CCButton.m in Sources */,
+				52D7E07913F8EA6E00554977 /* CCButton.mm in Sources */,
 				52D7E07E13F8ECBD00554977 /* NextButton.mm in Sources */,
-				52D7E27813F91B6B00554977 /* PreviousButton.m in Sources */,
+				52D7E27813F91B6B00554977 /* PreviousButton.mm in Sources */,
+				52D7E44713FB977000554977 /* SkipButton.mm in Sources */,
+				52D7E49413FB9FE100554977 /* CCBReader.m in Sources */,
+				52D7E49D13FBA02700554977 /* MainMenuScene.mm in Sources */,
+				52D7E57313FBAC1A00554977 /* ReviewUI.mm in Sources */,
+				52D7E57613FBAC9C00554977 /* BackButton.mm in Sources */,
+				52D7E65F13FBBC3500554977 /* CCStoryUI.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

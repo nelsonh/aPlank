@@ -6,6 +6,17 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+/**
+ CCButton is designed for CCStoryUI.
+ 
+ A subclass of CCSprite, subclass must set pressedTarget, pressedEvent, releasedTarget and releasedEvent
+ if subclass need to perform a specific action on pressed or released touch event.
+ 
+ All UI components on the layer is CCButton type.
+ 
+ performPressedEvent and performReleasedEvent will be invoked by CCStoryUI
+ **/
+
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
