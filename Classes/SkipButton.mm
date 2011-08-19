@@ -28,6 +28,9 @@
 
 -(void)buttonDownEvent
 {
+	//player have seen the story make program no longer first launch
+	[[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"FirstLaunch"];
+	
 	//test back to menu
 	CCScene *menuScene=(CCScene*)[CCBReader nodeGraphFromFile:@"MainMenu.ccb"];
 	[[CCDirector sharedDirector] replaceScene:[CCTransitionFadeTR transitionWithDuration:transDuration scene:menuScene]];

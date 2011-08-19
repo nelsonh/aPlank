@@ -16,6 +16,8 @@
 #import "ScrollableMenu.h"
 #import "IntroScene.h"
 #import "CCBReader.h"
+#import "QuickStoryScene.h"
+#import "DefaultScene.h"
 
 @implementation aPlankAppDelegate
 
@@ -45,6 +47,7 @@
 
 - (void) applicationDidFinishLaunching:(UIApplication*)application
 {
+	[[NSUserDefaults standardUserDefaults] registerDefaults:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:YES], @"FirstLaunch", nil]];
 	
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -119,7 +122,8 @@
 	//[[CCDirector sharedDirector] runWithScene: [PlankScene scene]];
 	//[[CCDirector sharedDirector] runWithScene: [ScrollableMenu scene]];
 	//[[CCDirector sharedDirector] runWithScene: [IntroScene scene]];
-	[[CCDirector sharedDirector] runWithScene: [CCBReader sceneWithNodeGraphFromFile:@"MainMenu.ccb"]];
+	CCScene *beginScene=[self getScene];
+	[[CCDirector sharedDirector] runWithScene:beginScene];
 }
 
 
@@ -159,6 +163,22 @@
 
 - (void)applicationSignificantTimeChange:(UIApplication *)application {
 	[[CCDirector sharedDirector] setNextDeltaTimeZero:YES];
+}
+
+-(id)getScene
+{
+	//check if program is first time launch or not
+	if([[NSUserDefaults standardUserDefaults] boolForKey:@"FirstLaunch"]==YES)
+	{
+		//first time
+		return 	[DefaultScene scene];
+	}
+	else 
+	{
+		//not first time
+		return [QuickStoryScene scene];
+	}
+
 }
 
 - (void)dealloc {

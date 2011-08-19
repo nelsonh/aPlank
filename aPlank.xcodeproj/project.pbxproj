@@ -174,7 +174,7 @@
 		52A29A0613B9C44F00FB7DBC /* pp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A29A0513B9C44F00FB7DBC /* pp1.png */; };
 		52A7C22B13BC505D00274F55 /* Bone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52A7C22A13BC505D00274F55 /* Bone.mm */; };
 		52A7C23213BC52C500274F55 /* BodyBone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52A7C23113BC52C500274F55 /* BodyBone.mm */; };
-		52A7C66413BD579500274F55 /* BoneComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A7C66313BD579500274F55 /* BoneComponent.m */; };
+		52A7C66413BD579500274F55 /* BoneComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52A7C66313BD579500274F55 /* BoneComponent.mm */; };
 		52A7C67E13BD590400274F55 /* HeadBone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52A7C67D13BD590400274F55 /* HeadBone.mm */; };
 		52A7C6EA13BD612700274F55 /* LeftArmBone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52A7C6E913BD612700274F55 /* LeftArmBone.mm */; };
 		52A7C6ED13BD613700274F55 /* RightArmBone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52A7C6EC13BD613700274F55 /* RightArmBone.mm */; };
@@ -210,6 +210,8 @@
 		52D7E57613FBAC9C00554977 /* BackButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E57513FBAC9C00554977 /* BackButton.mm */; };
 		52D7E5DC13FBB20C00554977 /* BackBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D7E5DB13FBB20C00554977 /* BackBtn.png */; };
 		52D7E65F13FBBC3500554977 /* CCStoryUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E65E13FBBC3500554977 /* CCStoryUI.mm */; };
+		52D7E74213FCFC4800554977 /* QuickStoryScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E74113FCFC4800554977 /* QuickStoryScene.mm */; };
+		52D7E78813FD01DC00554977 /* DefaultScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52D7E78713FD01DC00554977 /* DefaultScene.mm */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -592,7 +594,7 @@
 		52A7C23113BC52C500274F55 /* BodyBone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BodyBone.mm; sourceTree = "<group>"; };
 		52A7C27F13BC5D7700274F55 /* BoneDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoneDrawable.h; sourceTree = "<group>"; };
 		52A7C66213BD579500274F55 /* BoneComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoneComponent.h; sourceTree = "<group>"; };
-		52A7C66313BD579500274F55 /* BoneComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoneComponent.m; sourceTree = "<group>"; };
+		52A7C66313BD579500274F55 /* BoneComponent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BoneComponent.mm; sourceTree = "<group>"; };
 		52A7C67C13BD590400274F55 /* HeadBone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadBone.h; sourceTree = "<group>"; };
 		52A7C67D13BD590400274F55 /* HeadBone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HeadBone.mm; sourceTree = "<group>"; };
 		52A7C6E813BD612700274F55 /* LeftArmBone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftArmBone.h; sourceTree = "<group>"; };
@@ -651,6 +653,10 @@
 		52D7E5DB13FBB20C00554977 /* BackBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackBtn.png; sourceTree = "<group>"; };
 		52D7E65D13FBBC3500554977 /* CCStoryUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCStoryUI.h; sourceTree = "<group>"; };
 		52D7E65E13FBBC3500554977 /* CCStoryUI.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCStoryUI.mm; sourceTree = "<group>"; };
+		52D7E74013FCFC4800554977 /* QuickStoryScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickStoryScene.h; sourceTree = "<group>"; };
+		52D7E74113FCFC4800554977 /* QuickStoryScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QuickStoryScene.mm; sourceTree = "<group>"; };
+		52D7E78613FD01DC00554977 /* DefaultScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultScene.h; sourceTree = "<group>"; };
+		52D7E78713FD01DC00554977 /* DefaultScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DefaultScene.mm; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -925,6 +931,8 @@
 		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				52D7E78513FD01C100554977 /* DefaultScene */,
+				52D7E73F13FCFC2800554977 /* QuickStory */,
 				52D7E65C13FBBC1500554977 /* StoyUI */,
 				52D7E48E13FB9FD300554977 /* CCBReader */,
 				52D7E07013F8EA0C00554977 /* Button */,
@@ -1325,7 +1333,7 @@
 				52A7C22913BC505D00274F55 /* Bone.h */,
 				52A7C22A13BC505D00274F55 /* Bone.mm */,
 				52A7C66213BD579500274F55 /* BoneComponent.h */,
-				52A7C66313BD579500274F55 /* BoneComponent.m */,
+				52A7C66313BD579500274F55 /* BoneComponent.mm */,
 				5203A44C13C1571B00E0EEDC /* BoneMathHelper.h */,
 				5203A44D13C1571B00E0EEDC /* BoneMathHelper.mm */,
 			);
@@ -1524,6 +1532,24 @@
 				52D7E57513FBAC9C00554977 /* BackButton.mm */,
 			);
 			name = ReviewUI;
+			sourceTree = "<group>";
+		};
+		52D7E73F13FCFC2800554977 /* QuickStory */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E74013FCFC4800554977 /* QuickStoryScene.h */,
+				52D7E74113FCFC4800554977 /* QuickStoryScene.mm */,
+			);
+			name = QuickStory;
+			sourceTree = "<group>";
+		};
+		52D7E78513FD01C100554977 /* DefaultScene */ = {
+			isa = PBXGroup;
+			children = (
+				52D7E78613FD01DC00554977 /* DefaultScene.h */,
+				52D7E78713FD01DC00554977 /* DefaultScene.mm */,
+			);
+			name = DefaultScene;
 			sourceTree = "<group>";
 		};
 		E02BB8BF126CC28A006E46A2 /* cocos2d */ = {
@@ -2018,7 +2044,7 @@
 				5206A88E13B97C6D0036DA56 /* GameObject.mm in Sources */,
 				52A7C22B13BC505D00274F55 /* Bone.mm in Sources */,
 				52A7C23213BC52C500274F55 /* BodyBone.mm in Sources */,
-				52A7C66413BD579500274F55 /* BoneComponent.m in Sources */,
+				52A7C66413BD579500274F55 /* BoneComponent.mm in Sources */,
 				52A7C67E13BD590400274F55 /* HeadBone.mm in Sources */,
 				52A7C6EA13BD612700274F55 /* LeftArmBone.mm in Sources */,
 				52A7C6ED13BD613700274F55 /* RightArmBone.mm in Sources */,
@@ -2054,6 +2080,8 @@
 				52D7E57313FBAC1A00554977 /* ReviewUI.mm in Sources */,
 				52D7E57613FBAC9C00554977 /* BackButton.mm in Sources */,
 				52D7E65F13FBBC3500554977 /* CCStoryUI.mm in Sources */,
+				52D7E74213FCFC4800554977 /* QuickStoryScene.mm in Sources */,
+				52D7E78813FD01DC00554977 /* DefaultScene.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

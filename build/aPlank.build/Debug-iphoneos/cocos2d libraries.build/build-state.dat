@@ -1,7 +1,7 @@
 Tcocos2d libraries
 v7
 r0
-t335268987.263810
+t335348931.289355
 cCheck dependencies
 cCompileC "build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/FontLabel.o" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/libs/FontLabel/FontLabel.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 cCompileC "build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/FontLabelStringDrawing.o" /Users/Nelson/Desktop/Proj/cocos2d-proj/aPlank/libs/FontLabel/FontLabelStringDrawing.m normal armv6 objective-c com.apple.compilers.llvmgcc42
@@ -6276,7 +6276,7 @@ s135152
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies335268987#335268987#0(0"0(0#1#0"8697130080#0"0#
+lSLF07#2@18"Check dependencies335348931#335348931#0(0"0(0#1#0"8641529280#0"0#
 
 CCompileC "build/aPlank.build/Debug-iphoneos/cocos2d libraries.build/Objects-normal/armv6/CCAction.o" "/Users/Nelson/Desktop/Proj/cocos2d proj/aPlank/libs/cocos2d/CCAction.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
 s332158116.356797
